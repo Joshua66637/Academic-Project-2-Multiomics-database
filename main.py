@@ -50,11 +50,11 @@ if(create):
 
 #Loading db
 if(load):
-    subjects = "Subject.csv"
-    protData = "HMP_proteome_abundance.tsv"
-    transcriptData = "HMP_transcriptome_abundance.tsv"
-    metabolData = "HMP_metabolome_abundance.tsv"
-    metabolAnno = "HMP_metabolome_annotation.csv"
+    subjects = "data/Subject.csv"
+    protData = "data/HMP_proteome_abundance.tsv"
+    transcriptData = "data/HMP_transcriptome_abundance.tsv"
+    metabolData = "data/HMP_metabolome_abundance.tsv"
+    metabolAnno = "data/HMP_metabolome_annotation.csv"
 
     try:
         with sqlite3.connect(omicdb) as connection:
