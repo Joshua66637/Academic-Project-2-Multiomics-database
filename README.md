@@ -1,4 +1,5 @@
-# Bioinformatics Multiomics Database
+# Project Title: Multiomics Database
+## Course: Programming and Databased (MSc Bioinformatics) 
 
 ## Overview
 This project describes the creation of a **bioinformatics database** containing multiomics data measurements and their related annotations.  
