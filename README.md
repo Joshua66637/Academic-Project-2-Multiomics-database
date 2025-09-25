@@ -30,7 +30,7 @@ For the data, we use a subset of a complex multi-omics dataset from the paper:
 Run the program with:
 
 ```bash
-python main.py [--createdb] [--loaddb] [--querydb=n] <SQLite database file>
+python main.py [--createdb] [--loaddb] [--querydb=n] <SQLite database name>
 Options
 --createdb: Creates the database structure.
 --loaddb: Parses the data files and inserts the relevant data into the database.
