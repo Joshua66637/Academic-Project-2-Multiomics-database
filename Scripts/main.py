@@ -1,4 +1,4 @@
-#main program for GUID: 3047039
+
 #Importing packages: sys for system exit, re for regex search, argparse to setup command line input 
 import sys
 import re
