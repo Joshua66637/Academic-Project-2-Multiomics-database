@@ -32,23 +32,10 @@ Run the program with:
 ```bash
 python <program>.py [--createdb] [--loaddb] [--querydb=n] <SQLite database file>
 Options
---createdb
-Creates the database structure.
-
---loaddb
-Parses the data files and inserts the relevant data into the database.
-
---querydb=n
-Runs one of the predefined queries (where n is a number from 1 to 9) on the created and loaded database.
-
-Installation
-Clone this repository.
-
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
+--createdb: Creates the database structure.
+--loaddb: Parses the data files and inserts the relevant data into the database.
+--querydb=n : Runs one of nine predefined queries (where n is a number from 1 to 9) on the database.
+```
 Reference
 Ahadi, S., Zhou, W., Schüssler-Fiorenza Rose, S. M., Sailani, M. R., Contrepois, K., Avina, M., Ashland, M., Brunet, A., & Snyder, M. (2020).
 Personal aging markers and ageotypes revealed by deep longitudinal profiling.
