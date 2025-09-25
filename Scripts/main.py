@@ -108,7 +108,7 @@ if(load):
                     
                     header = MetabolAnno.readline().strip().split(",")
                     for line in MetabolAnno: 
-                        MetabolInfo = re.subn("\([1-5]\)","",line)[0] #removing suffixes (1), (2) etc using regex
+                        MetabolInfo = re.subn(r"\([1-5]\)","",line)[0] #removing suffixes (1), (2) etc using regex
                         MetabolInfo = MetabolInfo.strip().split(",")
                         counter = 0
 
