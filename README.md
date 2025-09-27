@@ -6,7 +6,7 @@ This project describes the creation of a **bioinformatics database** containing 
 These measurements were collected from a **cohort of 106 subjects** as part of a study on aging markers.
 
 ## Data Description
-For the data, we use a subset of a complex multi-omics dataset from the paper:  
+The data is a subset of a complex multi-omics dataset from the paper:  
 *Personal aging markers and ageotypes revealed by deep longitudinal profiling*  
 ([Nature Medicine, 2020](https://www.nature.com/articles/s41591-019-0719-5)).    
 
